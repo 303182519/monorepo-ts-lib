@@ -1,0 +1,30 @@
+{
+  "name": "@monorepo-ts-lib/xjl",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "devDependencies": {
+    "ts-lib-tools": "^0.14.0"
+  },
+  "scripts": {
+    "build": "ts-lib-tools build --simple",
+    "test": "ts-lib-tools test",
+    "lint": "ts-lib-tools lint",
+    "release": "yarn publish dist --tag latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "umd:main": "dist/monorepo-ts-lib-xjl.umd.production.js",
+  "module": "dist/monorepo-ts-lib-xjl.esm.js",
+  "license": "MIT"
+}
