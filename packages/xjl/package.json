@@ -26,5 +26,6 @@
   },
   "umd:main": "dist/monorepo-ts-lib-xjl.umd.production.js",
   "module": "dist/monorepo-ts-lib-xjl.esm.js",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "a714f3e14456a0e8c8abf0dffee116275ecdfc18"
 }
