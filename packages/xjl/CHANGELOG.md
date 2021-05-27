@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/303182519/monorepo-ts-lib/compare/v1.0.2...v1.0.4) (2021-05-27)
+
+
+### Bug Fixes
+
+* test2 ([6f148ee](https://github.com/303182519/monorepo-ts-lib/commit/6f148ee215495ac1fe88939a4881a22614af03f5))
+
+
+### Reverts
+
+* Revert "增加参数" ([28f099c](https://github.com/303182519/monorepo-ts-lib/commit/28f099cadc48621c2c7a7858a6d24bc4b825e5e8))
+
+
+
+
+
 ## [1.0.3](https://github.com/303182519/monorepo-ts-lib/compare/v1.0.2...v1.0.3) (2021-05-27)
 
 
