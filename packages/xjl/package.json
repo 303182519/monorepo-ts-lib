@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "ts-lib-tools": "^0.14.0"
   },
@@ -27,5 +30,5 @@
   "umd:main": "dist/monorepo-ts-lib-xjl.umd.production.js",
   "module": "dist/monorepo-ts-lib-xjl.esm.js",
   "license": "MIT",
-  "gitHead": "a714f3e14456a0e8c8abf0dffee116275ecdfc18"
+  "gitHead": "542ccd9a62b42bf3871ebba997d3e4bea1a72f3a"
 }
