@@ -11,7 +11,7 @@
     "format": "ts-lib-tools format",
     "lint": "ts-lib-tools lint",
     "gen": "ts-lib-tools gen-module",
-    "release": "lerna publish from-package"
+    "release": "lerna publish"
   },
   "prettier": {
     "printWidth": 80,
