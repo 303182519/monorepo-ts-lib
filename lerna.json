@@ -1,5 +1,23 @@
 {
   "useWorkspaces": true,
   "version": "1.0.1",
-  "npmClient": "yarn"
+  "npmClient": "yarn",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "version": {
+      "exact": true,
+      "ignoreChanges": [
+        "*.md"
+      ],
+      "verifyAccess": false,
+      "verifyRegistry": false,
+      "conventionalCommits": true,
+      "message": "chore: publish"
+    },
+    "publish": {
+      "registry": "https://registry.npmjs.org/"
+    }
+  }
 }
